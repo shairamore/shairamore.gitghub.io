@@ -1,44 +1,45 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
-  }
-   
-   
-  h1 {
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
     color: white;
-  }
-   
-   
-  p, 
-  li {
+}
+
+p, 
+li {
     font-size: 18px;
-  }
+}
 
-  p {
-      font-weight: bold;
-  }
-   
+p {
+    font-weight: bold;
+}
 
-  a {
+a {
     text-decoration: none;
     color:lightsalmon
-  }
-  
-  ul.checklist {
-      padding-left: 20px
-  }
+}
 
-  li.checkbox {
+ul.checklist {
+    padding-left: 20px
+}
+
+li.checkbox {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
-  }
+}
 
-  .banner {
-      text-align: center;
-      background-color: #ec79b3;
-      padding: 100px
-  }
+.banner {
+    text-align: center;
+    background-color: #ec79b3;
+    padding: 100px
+}
 
-  li.checkbox > input {
-      margin-right: 10px;
-  }
+li.checkbox > input {
+    margin-right: 10px;
+}
